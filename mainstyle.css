@@ -1,0 +1,204 @@
+/* Reset dan Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+    min-height: 100vh; /* Memastikan tinggi minimum halaman 100% viewport */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: #0b1957;
+    color: #e8d9ed;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+header .logo h1 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('pict/landing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    margin-top: 4rem; /* Mengimbangi header tetap */
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+}
+
+.btn-primary {
+    background-color: #CC8DB3; /* Warna biru utama */
+    border-color: #CC8DB3; /* Warna border */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    padding: 10px 20px; /* Menyesuaikan ukuran tombol */
+    font-weight: bold; /* Menonjolkan teks */
+    transition: background-color 0.3s ease; /* Animasi saat hover */
+}
+
+.btn-primary:hover {
+    background-color: #CC8DB3; /* Warna saat hover */
+    border-color: #CC8DB3; /* Border saat hover */
+}
+/*Perhatikan*/
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0b1957;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #CC8DB3;
+    border-color: #CC8DB3;
+    font-weight: bold;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #0b1957;
+    border-color: #0b1957;
+}
+
+.collapse .card-body {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.collapse .card-body h5 {
+    font-size: 22px;
+    color: #0b1957;
+}
+
+.collapse .card-body p {
+    font-size: 16px;
+    color: #333;
+}
+
+.collapse-button {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.collapse-button .btn-primary {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collapse-button .btn-primary i {
+    margin-right: 10px;
+}
+
+/* Daerah Section */
+.daerah {
+    text-align: center;
+    margin: 40px 0;
+    padding: 2rem;
+    flex: 1;
+}
+
+.daerah h4 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Map Section */
+#map {
+    height: 500px;
+    width: 100%;
+    margin: 0 auto; /* Atas dan bawah 0, kanan dan kiri otomatis */
+    max-width: 1200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0b1957;
+    color: #e8d9ed;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: auto; /* Memastikan footer berada di bawah tanpa fixed */
+}
+
+/* Scrollable Container */
+.scroll-container {
+    width: 100%;
+    height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
