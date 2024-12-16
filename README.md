@@ -1,1 +1,10 @@
-# responsi_pgweb
+KosFinder
+![image](https://github.com/user-attachments/assets/352429f5-a0dc-4cd3-98e1-e08dafe6763c)
+KosFinder adalah aplikasi berbasis WebGIS yang dirancang untuk membantu mahasiswa dan pencari kos menemukan tempat tinggal yang sesuai dengan preferensi mereka di daerah Yogyakarta. Aplikasi ini menyediakan informasi lengkap tentang berbagai pilihan kos yang mencakup harga, lokasi, fasilitas, dan kondisi tempat tinggal. Pengguna dapat menelusuri peta interaktif, melihat deskripsi masing-masing kos, serta menemukan kos dengan berbagai kriteria, seperti harga terjangkau, fasilitas yang diinginkan, dan kedekatan dengan kampus atau fasilitas umum. Aplikasi ini bertujuan memberikan kemudahan dalam mencari kos dengan cara yang efisien dan informatif
+Komponen yang digunakan
+![image](https://github.com/user-attachments/assets/9e04c03b-cfce-413d-a5a8-f44c13927c6a)
+Pada sisi backend, aplikasi ini menggunakan PHP untuk menangani logika server, seperti memproses data dari formulir dan berinteraksi dengan MySQL, yang berfungsi sebagai database utama. Data kos, termasuk harga, lokasi, fasilitas, dan lainnya, disimpan dan diambil dari database ini.
+![image](https://github.com/user-attachments/assets/5068e4bd-c036-4edb-93ce-436d7473f9a4)
+![image](https://github.com/user-attachments/assets/bae73642-b06a-4c97-9dfd-dfb15adb7f02)
+
+Sumber data utama untuk aplikasi KosFinder berasal dari database kos yang menyimpan informasi tentang berbagai kos yang ada di Yogyakarta. Data ini meliputi harga, fasilitas, kondisi, serta lokasi kos. Database ini diisi dengan data hasil survei lapangan dan input manual dari pemilik kos. Selain itu, Google Maps API digunakan untuk memperoleh informasi geografis seperti koordinat latitude dan longitude setiap lokasi kos, sehingga lokasi kos dapat ditampilkan secara akurat di peta interaktif. Sumber data tambahan bisa mencakup data publik dan penelitian yang memberikan informasi lebih lanjut mengenai area-area yang strategis di Yogyakarta, seperti kedekatannya dengan kampus, transportasi umum, atau pusat perbelanjaan. Data ini memastikan bahwa aplikasi tidak hanya menyajikan informasi kos, tetapi juga mengoptimalkan pemilihan lokasi yang tepat berdasarkan kebutuhan pengguna
